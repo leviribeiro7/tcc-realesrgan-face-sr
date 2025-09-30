@@ -1,0 +1,7 @@
+(keras23_env) clo@DeepServer2:~/models/lpr-rsr-ext/Proposed$ nohup python -u -m training --save backup_w_gaussian_dataset/ --batch 8 --mode 0 --samples /home/clo/models/lpr-rsr-ext/Proposed/level_gaussian_dataset/split.txt > /home/clo/models/lpr-rsr-ext/Proposed/backup_w_gaussian_dataset/training_22-09-2025_08h53.log &
+
+(keras23_env) clo@DeepServer2:~/models/lpr-rsr-ext/Proposed$ cp /home/clo/models/paired_dataset_1_level/training/hr/*.jpg /home/clo/models/paired_dataset_1_level/testing/hr/*.jpg /home/clo/models/paired_dataset_1_level/validation/hr/*.jpg /home/clo/models/lpr-rsr-ext/Proposed/dataset/HR/
+(keras23_env) clo@DeepServer2:~/models/lpr-rsr-ext/Proposed$ cp /home/clo/models/paired_dataset_1_level/training/lr/*.jpg /home/clo/models/paired_dataset_1_level/testing/lr/*.jpg /home/clo/models/paired_dataset_1_level/validation/lr/*.jpg /home/clo/models/lpr-rsr-ext/Proposed/dataset/LR/
+
+(keras23_env) clo@DeepServer2:~/models/lpr-rsr-ext/Proposed$ rm -rf /home/clo/models/lpr-rsr-ext/Proposed/level_2_dataset/HR/*.jpg
+(keras23_env) clo@DeepServer2:~/models/lpr-rsr-ext/Proposed$ rm -rf /home/clo/models/lpr-rsr-ext/Proposed/level_2_dataset/LR/*.jpg
