@@ -4,9 +4,9 @@ import torch
 # ==============================================================================
 # 1. PAINEL DE CONTROLE DO EXPERIMENTO (ALTERE APENAS ESTES PARA E1, E2, E3, E4)
 # ==============================================================================
-EXPERIMENT_NAME = "E1_500imgs_light"   # E1_500imgs_light | E2_500imgs_severe | E3_1500imgs_severe | E4_3000imgs_severe
-DATASET_SIZE = 500                     # Volume treino+validação: 500 (E1/E2), 1500 (E3), 3000 (E4)
-DEGRADATION_MODE = "light"             # "light" (Blur + Bicúbica) ou "severe" (Blur + Bicúbica + Ruído + JPEG)
+EXPERIMENT_NAME = "E2_500imgs_severe"
+DATASET_SIZE = 500
+DEGRADATION_MODE = "severe"
 
 # ==============================================================================
 # 2. REPRODUTIBILIDADE E PARTICIONAMENTO FIXO
