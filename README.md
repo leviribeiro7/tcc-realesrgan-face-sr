@@ -89,7 +89,7 @@ git checkout v1.0-E4
 
 ### Execução em Ambiente GPU (Kaggle / Google Colab)
 1. Habilite aceleração por **GPU** e acesso à **Internet** na sessão.
-2. Adicione a base **Flickr-Faces-HQ (FFHQ)** ao diretório de entrada do ambiente.
+2. Adicione a base **Flickr-Faces-HQ (FFHQ) small** ao diretório de entrada do ambiente.
 3. Configure a variável de ambiente ou *Secret* **`WANDB_API_KEY`** para rastreamento de métricas no Weights & Biases.
 4. Execute sequencialmente as células do caderno correspondente em `notebooks/` para preparar os dados (`prepare_data.py`), treinar o modelo (`train_realesrgan.py`) e gerar a avaliação no teste cego (`evaluate.py`).
 
