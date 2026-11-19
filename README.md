@@ -1,6 +1,6 @@
 # Super-Resolução Facial com Real-ESRGAN: Análise de Degradação e Escala de Dados
 
-Repositório oficial do Trabalho de Conclusão de Curso (TCC) em **Ciência da Computação** pela **Universidade Federal de Sergipe (DCOMP/UFS)** do discente Levi Ribeiro Santiago de Mendonça.
+Repositório do Trabalho de Conclusão de Curso (TCC) em **Ciência da Computação** pela **Universidade Federal de Sergipe (DCOMP/UFS)** produzido pelo discente Levi Ribeiro Santiago de Mendonça.
 
 O projeto investiga o comportamento da arquitetura **Real-ESRGAN** na tarefa de super-resolução facial ($2\times$, de $64 \times 64$ para $128 \times 128$ pixels) utilizando a base **Flickr-Faces-HQ (FFHQ) small**, avaliando sistematicamente o impacto da severidade da degradação sintética e do volume de dados de treinamento sobre o *Perception-Distortion Trade-off* (PSNR, SSIM e LPIPS).
 
